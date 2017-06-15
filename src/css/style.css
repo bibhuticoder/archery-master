@@ -1,0 +1,31 @@
+body{
+	text-align: center;
+	overflow: auto;
+	padding: 5px;
+}
+
+
+#game{
+	position: relative;	
+	background-color: #00ffaa;	
+	border-radius: 5px;
+	margin:0 auto;		
+}
+
+.cnv{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;	
+
+}
+
+#back{
+	background-color: transparent;
+	z-index: 2;
+}
+
+#canvas{	
+	background-color: transparent;
+	z-index: 3;
+}
